@@ -1,0 +1,64 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+/* Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+nav {
+    color: #FFC107;
+    opacity: 0.9;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.nav-item:nth-child(1) {
+    margin-left: 200px;
+}
+
+.nav-item {
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.nav-link{
+    opacity: 1;
+}
+.nav-link:hover {
+    color: #DC3545;
+}
+
+/* nav ends */
+/*  */
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Our Places */
+
+.img img{
+    width: 100%;
+   height: 250px;
+    object-fit: cover;
+}
+
+i{
+    cursor: pointer;
+    margin: 2px;
+}
