@@ -11,7 +11,10 @@
 body {
     font-family: 'Sedgwick Ave Display', cursive;
 }
-
+.list-group-item:hover{
+    background-color: #DC3545;
+}
+/* nav start */
 nav {
     color: #FFC107;
     opacity: 0.9;
@@ -40,7 +43,8 @@ nav {
 }
 
 /* nav ends */
-/*  */
+
+/* home start */
 .carousel-inner::before {
     content: '';
     position: absolute;
@@ -49,16 +53,25 @@ nav {
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
+/* home end */
 
-/* Our Places */
+/* Our Places start */
 
 .img img{
     width: 100%;
    height: 250px;
     object-fit: cover;
 }
+/* Our Places end */
 
+/* footer start */
 i{
     cursor: pointer;
-    margin: 2px;
+    padding: 2px;
 }
+i:hover{
+    background-color: white;
+    color: #DC3545;
+    border-radius: 5px;
+}
+/* footer end */
